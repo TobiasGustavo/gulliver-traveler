@@ -18,15 +18,12 @@ Gulliver Traveler é uma plataforma de
 
 ## Integrantes
 
-* Flavia Alessandra
-* Luciana Pereira
-* Nathalia Nascimento
-* Matheus Cavalcante 
-* Tobias Gustavo Soares
+ Flavia Alessandra
+ Luciana Pereira
+ Nathalia Nascimento
+ Matheus Cavalcante 
+ Tobias Gustavo Soares
 
-## Orientador
-
-* 
 
 # Planejamento
 
