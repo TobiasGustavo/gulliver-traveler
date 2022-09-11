@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.container .rich-text {
+  width: 100%;
+  position: absolute;
+  min-height: 100vh;
+}
+
+.container #context {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-the-series {
+  width: 50%;
+  z-index: 1;
+  position: absolute;
+  float: right;
+}
+
+.about-the-series strong {
+  z-index: 1;
+  margin: 2rem 0rem 0rem 2rem;
+  margin-bottom: 5rem;
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.about-the-series h2 {
+  z-index: 1;
+  margin: 3.5rem 0rem 0rem 2rem;
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 69px;
+  line-height: 90px;
+}
+
+.about-the-series p {
+  z-index: 100;
+  margin: 9.5rem 400rem 0rem 2rem;
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: left;
+}
+
+canvas {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+
+.container #context .item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container #context .item img {
+  position: absolute;
+  bottom: 0;
+}
+
+.container #context img {
+  object-fit: cover;
+}
+
+@media (min-width: 1025px) {
+  .container #context {
+    height: 100vh;
+  }
+
+
+  .container .itembackground {
+    opacity: 0;
+  }
+
+  .container #bg-smoke img {
+    width: 100%;
+    top: 0;
+    animation: upDown 3s linear infinite;
+  }
+
+  .container #dragon-head img {
+    top: 0px;
+    left: 48%;
+    transform: translate(-50%, 0);
+    width: 55%;
+    animation: dragon 1.5s ease-in-out;
+  }
+
+  .container #video iframe {
+    height: 50%;
+    width: 30%;
+    margin: 5rem 0rem 20rem 54rem;
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+  }
+
+  .container #swords img {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .container #sparks img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 800px) {
+  .container #context {
+    height: 200vh;
+  }
+
+  .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container #bg-smoke img {
+    width: 100%;
+    /* top: 0; */
+    animation: upDown 3s linear infinite;
+  }
+
+  .container #dragon-head img {
+    top: 0px;
+    left: 48%;
+    transform: translate(-50%, 0);
+    width: 55%;
+    animation: dragon 1.5s ease-in-out;
+  }
+
+  .container #video iframe {
+    height: 22%;
+    width: 80%;
+    margin: 47rem 0rem 5rem 5rem;
+    position: relative;
+    z-index: 1;
+    border-radius: 4px;
+  }
+
+  .container #swords img {
+    width: 100%;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .container #sparks img {
+    top: 82%;
+    width: 100%;
+  }
+}
+
+@keyframes dragon {
+  from {
+    top: -5px;
+    width: 61%;
+  }
+
+  to {
+    top: 0;
+    width: 60%;
+  }
+}
+
+@keyframes upDown {
+
+  0%,
+  100% {
+    top: 0;
+  }
+
+  50% {
+    top: -1%;
+  }
+}
