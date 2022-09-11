@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap'); 
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+
+h2 {
+    font-size: 3rem;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.btn-confira {
+    background: rgb(255 255 255 / 7%);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 9px;
+    display: block;
+    width: max-content;
+    padding: 0.8rem 2.5rem;
+    margin: 3rem 0rem 3rem 0rem;
+}
+ 
+
+.btn-confira:hover {
+    background: rgb(255 255 255 / 16%);
+    border: 1px solid rgb(255 255 255 / 0%);
+    opacity: 1;
+    border-radius: 29px;
+}
