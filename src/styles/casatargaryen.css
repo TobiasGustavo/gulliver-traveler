@@ -1,5 +1,5 @@
 body {
-    background: url(../assets/img/winterfell.png) top center fixed;
+    background: url(../assets/img/targaryen.jpeg) top center fixed;
     background-size: cover;
     font-family: Cabin, sans-serif;
     font-size: 16px;
@@ -13,7 +13,7 @@ body {
     justify-content: center;
     position: absolute;
     width: 100%;
-    background: rgba(0, 0, 0, 0.448) !important;
+    background: rgb(0 0 0 / 59%) !important;
     backdrop-filter: blur(8px);
     padding-bottom: 1rem;
     min-height: 100vh;
