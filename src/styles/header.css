@@ -18,3 +18,25 @@ body {
     padding-bottom: 1rem;
     min-height: 100vh;
 }
+
+.container .container-links {
+    background: transparent;
+    position: absolute;
+    top: 58px;
+}
+
+.container-links ul {
+    text-align: center;
+}
+
+ul li {
+    margin: 1rem 1rem 0rem 1rem;
+    display: inline;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
