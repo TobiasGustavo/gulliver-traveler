@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap'); 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../assets/img/winterfell.png) top center fixed;
+    background-size: cover;
+    font-family: Cabin, sans-serif;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.back-blur {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.448) !important;
+    backdrop-filter: blur(8px);
+    padding-bottom: 1rem;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.about-place {
+    width: 50%;
+}
+
+.images-place {
+    width: 30%;
+}
+
+.images-place img {
+    height: 280px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: -13px;
+    border-radius: 4px;
+    filter: brightness(0.8);
+    transition: 0.4s;
+}
+
+.images-place img:hover {
+    filter: brightness(1);
+}
+
+.about-place h2 {
+    font-size: 3rem;
+    line-height: 42px;
+    margin: 1rem 0rem 2rem 0rem;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-place p {
+    line-height: 22px;
+    text-align: justify;
+}
+ 
+.btn-confira {
+    background: rgb(255 255 255 / 7%);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 9px;
+    display: block;
+    width: max-content;
+    padding: 0.8rem 2.5rem;
+    margin: 3rem 0rem 3rem 0rem;
+}
+ 
+
+.btn-confira:hover {
+    background: rgb(255 255 255 / 16%);
+    border: 1px solid rgb(255 255 255 / 0%);
+    opacity: 1;
+    border-radius: 29px;
+}
+
+
+.about-place strong:before {
+    background: #ffffff14;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 63%;
+    right: 0px;
+    top: 7px;
+}
+
+.about-place strong {
+    position: relative;
+    width: 100%;
+    display: block;
+    font-weight: normal;
+}
+
+
+
+
+@media (min-width: 100px) and (max-width: 800px) {
+    .container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+
+    .images-place, .about-place {
+        width: 100%;
+    }
+
+    .about-place strong:before {
+        width: 50%;
+    }
+}
