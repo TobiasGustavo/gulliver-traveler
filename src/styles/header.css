@@ -1,0 +1,42 @@
+body {
+    background: url(../assets/img/wallpaperflare\ 1\ \(1\).png) top center fixed;
+    background-size: cover;
+    font-family: Cabin, sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+ 
+.back-blur {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    background: rgb(0 0 0 / 59%) !important;
+    backdrop-filter: blur(8px);
+    padding-bottom: 1rem;
+    min-height: 100vh;
+}
+
+.container .container-links {
+    background: transparent;
+    position: absolute;
+    top: 58px;
+}
+
+.container-links ul {
+    text-align: center;
+}
+
+ul li {
+    margin: 1rem 1rem 0rem 1rem;
+    display: inline;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
