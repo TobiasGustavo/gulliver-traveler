@@ -1,11 +1,7 @@
-# Gulliver-Traveler
+# Gulliver Traveler ✈️​🌎​
 
-<div align="center">
-<div img=
-
-<a href="https://imgur.com/g9u7IkE"><img src="https://i.imgur.com/g9u7IkE.png" title="source: imgur.com" /></a> 
-
-
+<div align="center" >
+ <a href="https://imgur.com/g9u7IkE"><img width="25%" src="https://i.imgur.com/g9u7IkE.png" title="source: imgur.com" /></a> 
 </div>
 
 `CURSO: Sistemas para Internet`
@@ -14,18 +10,21 @@
 
 `SEMESTRE: 1º`
 
-Gulliver Traveler é uma plataforma que consiste em um Web Site de viagens e turismo criado para a atividade Gullivers Travels da FIAP.
+## :page_facing_up: Índice
 
-## Integrantes
+* [1. Sobre](#1-sobre)
+* [2. Planejamento Ágil](#2-Planejamento-Ágil)
+* [3. Kanban](#3-Kanban)
+* [4. Prótipo](#4-Prótipo)
+* [5. Desenvolvedoras](#5-Desenvolvedoras)
 
- Flavia Alessandra  |
- Luciana Pereira    |
- Nathalia de Campos |
- Matheus Cavalcante |
- Tobias Gustavo Soares |
+## 1. Sobre
+Gulliver Traveler é um Web Site de viagens e turismo que está sendo desenvolvido durante o curso de graduação de Sistemas para Internet da FIAP. A primeira etapa criada deste projeto, consiste em um pequeno compilado de pontos túristicos utilizados na filmagem da serie <img  width="15%" src="https://user-images.githubusercontent.com/37550557/189577544-52a6fd30-85ba-496f-a284-28d0fed19fd0.png" />.
+Para acessar [clique aqui](https://luciana-pereira.github.io/gulliver-traveler/src/index.html).
 
-
-# Planejamento
+## 2. Planejamento Ágil :memo:
+Utilizou-se a ferramenta _Trello_ para planejar as ideais e organizar as tarefas.
+Se quiser saber um pouco mais sobre o planejamento, basta acessar esse [link](https://trello.com/invite/b/xTg4Htog/fd15e1ad704cb4a9e04e81e60e7d5e03/gulliver-traveler).
 
 | Etapa         | Período                   | Atividades |
 |  :----:   |  :----:               | ----------- |
@@ -35,18 +34,24 @@ Gulliver Traveler é uma plataforma que consiste em um Web Site de viagens e tur
 | ETAPA 4       | 09/09/2022 - 11/09/2022   |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
 | ETAPA 5       | 12/09/2022                |[Entrega](presentation/README.md) |
 
-# Kanban
+## 3. Kanban
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/37550557/189559934-9226c3f3-5fce-4615-8e50-65edacad3bc7.png"/>
+</div>
 
-![image](https://user-images.githubusercontent.com/37550557/189559934-9226c3f3-5fce-4615-8e50-65edacad3bc7.png)
+## 4. Prótipo
 
-# Wireframe
+O projeto foi desenvolvido utilizando protótipo realizado no Figma conforme imagem abaixo. Para ter acesso ao prótipo e todas as informações sobre, acesse [AQUI](https://www.figma.com/file/Du9rswE4Zw8bqqhcNuANpX/Untitled?node-id=0%3A1)
 
-![image](https://user-images.githubusercontent.com/37550557/189559677-2d2a7886-8c49-4667-a586-8361a72ef03a.png)
+<div align="center">
+  <img width="35.5%" src="https://user-images.githubusercontent.com/37550557/189576083-4984a371-c3f8-46e6-8fdc-891af7762c70.png"/>
+  <img width="36%" src="https://user-images.githubusercontent.com/37550557/189576342-0c217860-8dfe-447b-a2ec-0c79fdc0271c.png"/>
+</div>
 
-![image](https://user-images.githubusercontent.com/37550557/189560085-c81f4eab-4073-4eff-b0d8-b556434cadf6.png)
+## 5. Desenvolvedores :octocat:
+Esta aplicação foi desenvolvida por:
 
-# Equipe
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/flavialbraz">
