@@ -2,52 +2,44 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>home</title>
-  <link rel="stylesheet" type="text/css" href="./styles/index.css" media="screen" />
-  
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conheça Lugares</title>
+
+  <link rel="stylesheet" href="./styles/global.css" />
+  <link rel="stylesheet" href="./styles/casas.css" />
+  <link rel="stylesheet" href="./styles/header.css" />
+
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
   <link rel="manifest" href="./assets/img/site.webmanifest">
+  <link rel="mask-icon" href="./assets/img/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-  <section class="container">
-    <div class="title-container">
-      <h4>Marrocos a Espanha: Conheça os principais cenários da série</h4>
-      <h1>Conheça lugares extraordinários</h1>
-    </div>
+  <section class="back-blur">
+    <div class="container">
+      <navbar class="container-links">
+        <ul>
+          <li><a href="./index.html" target="_blank">Home</a></li>
+          <li><a href="./pages/map.html" target="_blank">Explorar</a></li>
+          <li><a href="./pages/abouttheseries.html" target="_blank">Sobre a série</a></li>
+        </ul>
+      </navbar>
+      <div class="about-place">
+        <strong> Conheça Lugares Através de: </strong>
+        <h2>Game of thrones</h2>
 
-    <div class="container-button">
-      <div class="hero-item" id="hero-john">
-        <a class="" href="/src/pages/casastark.html" target="_blank" rel="noopener noreferrer">
-          <img src="./assets//img/snow.png" alt="John Snow" />
-        </a>
-        <h3 class="hero-item title-text" id="title-john">
-          <strong>John Snow</strong>
-        </h3>
-        <h3 class="hero-item subtitle-text">
-          Casa Stark
-        </h3>
+        <p>
+          Conheça os locais onde a série foi gravada e agende a sua visita
+          para conhecer os pontos turísticos mais incríveis de cada país.
+          <a class="btn-confira" target="_blank" href="./pages/map.html">Explorar</a>
+        </p>
       </div>
-
-      <div class="hero-item" id="hero-daenerys">
-        <a class="" href="/src/pages/casatargaryen.html" target="_blank" rel="noopener noreferrer">
-          <img class="" src="./assets//img/kalesi.png" alt="Daenerys Targaryen" />
-        </a>
-        <h3 class="hero-item title-text" id="title-daenerys">
-          <strong>Daenerys Targaryen</strong>
-        </h3>
-        <h3 class="hero-item subtitle-text">
-          Casa Targaryen
-        </h3>
-      </div>
-
     </div>
   </section>
 </body>
