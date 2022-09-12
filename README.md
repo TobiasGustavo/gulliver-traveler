@@ -20,7 +20,7 @@
 
 ## 1. Sobre
 Gulliver Traveler é um Web Site de viagens e turismo que está sendo desenvolvido durante o curso de graduação de Sistemas para Internet da FIAP. A primeira etapa criada deste projeto, consiste em um pequeno compilado de pontos túristicos utilizados na filmagem da serie <img  width="15%" src="https://user-images.githubusercontent.com/37550557/189577544-52a6fd30-85ba-496f-a284-28d0fed19fd0.png" />.
-Para acessar [clique aqui](https://luciana-pereira.github.io/gulliver-traveler/src/index.html).
+Para acessar [clique aqui](https://gulliver-traveler.vercel.app/).
 
 ## 2. Planejamento Ágil :memo:
 Utilizou-se a ferramenta _Trello_ para planejar as ideais e organizar as tarefas.
