@@ -14,7 +14,7 @@
 
 `SEMESTRE: 1º`
 
-Gulliver Traveler é uma plataforma de  
+Gulliver Traveler é uma plataforma que consiste em um Web Site de viagens e turismo criado para a atividade Gullivers Travels da FIAP.
 
 ## Integrantes
 
