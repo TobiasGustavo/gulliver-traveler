@@ -33,24 +33,29 @@ body {
 
 div.container-button {
   max-width: 1000px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
+  margin: auto auto auto 10%;
+  display: inline-flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 
 img {
-  width: 40%;
+  width: 70%;
+  filter: saturate(0.5);
+  transition: 0.4s;
 }
 
-div#hero-john {
-  margin: auto;
+img:hover {
+  filter: brightness(1);
+  transition: 0.4s;
 }
 
-div#hero-daenerys {
-  margin: auto;
+.item {
+  justify-items: center;
+  align-items: center;
+  display: block;
+
 }
 
 section.container {
@@ -64,20 +69,12 @@ section.container {
   border: 1px solid #000000;
 }
 
-div#hero-john .title-text {
+div.item .title-text {
+  margin: 0rem 0rem 0rem 1.6rem;
+}
+
+div.item .subtitle-text {
   margin: 0rem 0rem 0rem 2rem;
-}
-
-div#hero-daenerys .title-text {
-  margin: 0rem 0rem 0rem 0.3rem;
-}
-
-div#hero-daenerys .subtitle-text {
-  margin: 0rem 0rem 0rem 1.5rem;
-}
-
-div#hero-john .subtitle-text {
-  margin: 0rem 0rem 0rem 1.9rem;
 }
 
 .title-text,

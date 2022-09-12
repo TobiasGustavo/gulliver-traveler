@@ -40,7 +40,7 @@
 
 .about-the-series strong {
   z-index: 1;
-  margin: 2rem 0rem 0rem 2rem;
+  margin: 4rem 0rem 0rem 2rem;
   margin-bottom: 5rem;
   font-family: 'Cabin';
   font-style: normal;
@@ -51,7 +51,7 @@
 
 .about-the-series h2 {
   z-index: 1;
-  margin: 3.5rem 0rem 0rem 2rem;
+  margin: 5.5rem 0rem 0rem 2rem;
   font-family: 'EB Garamond';
   font-style: normal;
   font-weight: 400;
@@ -61,7 +61,7 @@
 
 .about-the-series p {
   z-index: 100;
-  margin: 9.5rem 400rem 0rem 2rem;
+  margin: 12rem 400rem 0rem 2rem;
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 500;

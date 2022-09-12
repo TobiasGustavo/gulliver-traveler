@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     color: #fff;
 }
- 
+
 .back-blur {
     box-sizing: border-box;
     display: flex;
@@ -13,8 +13,8 @@ body {
     justify-content: center;
     position: absolute;
     width: 100%;
-    background: rgb(0 0 0 / 59%) !important;
-    backdrop-filter: blur(8px);
+    background: rgb(0 0 0 / 29%) !important;
+    backdrop-filter: blur(2px);
     padding-bottom: 1rem;
     min-height: 100vh;
 }
