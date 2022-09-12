@@ -78,6 +78,7 @@ Gulliver Traveler é uma plataforma que consiste em um Web Site de viagens e tur
         </sub>
       </a>
     </td>
+    <td >
   </tr>
 </table>
 
