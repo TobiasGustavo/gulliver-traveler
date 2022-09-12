@@ -35,13 +35,15 @@ Gulliver Traveler é uma plataforma que consiste em um Web Site de viagens e tur
 | ETAPA 4       | 09/09/2022 - 11/09/2022   |[Programação de Funcionalidades - Javascript](docs/development.md) <br> [Testes de Software ](docs/tests.md) |
 | ETAPA 5       | 12/09/2022                |[Entrega](presentation/README.md) |
 
-# Código
+# Kanban
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+![image](https://user-images.githubusercontent.com/37550557/189559934-9226c3f3-5fce-4615-8e50-65edacad3bc7.png)
 
-# Apresentação
+# Wireframe
 
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
+![image](https://user-images.githubusercontent.com/37550557/189559677-2d2a7886-8c49-4667-a586-8361a72ef03a.png)
+
+![image](https://user-images.githubusercontent.com/37550557/189560085-c81f4eab-4073-4eff-b0d8-b556434cadf6.png)
 
 # Equipe
 <table>
